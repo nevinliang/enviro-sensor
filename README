@@ -1,0 +1,26 @@
+NAME: Nevin Liang
+EMAIL: nliang868@g.ucla.edu
+ID: 705575353
+
+FILE DESCRIPTIONS
+=================
+
+lab4c_tcp.c:	lab C file for an embedded application that builds and runs on
+				an embedded system. acts as a temperature monitor and can log values
+				uses tcp socket connection to connect to ucla server. best to run with
+				host=lever.cs.ucla.edu and port 18000
+
+lab4c_tls.c:	lab C file for an embedded application that builds and runs on
+				an embedded system. acts as a temperature monitor and can log values.
+				implements a secure channel using standard tools. and encrypts output
+				best to run with host=lever.cs.ucla.edu and port 19000
+
+Makefile:		used to build application. can create dist and also clean files created 
+				by it.
+
+RESEARCH
+========
+
+a ton of code taken from 1B slides
+!! prints out time in UTC time I believe. Professor Xu said that 
+	was okay on Piazza I think.
